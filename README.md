@@ -1,2 +1,2 @@
-# js_react_class
+# lessons-js-core
 репозиторий в рамках обучения js react
