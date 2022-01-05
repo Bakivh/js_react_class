@@ -38,7 +38,16 @@ html {
 .avatar__picture {
 	border-radius: 50%;
 	border: 2rem solid #fff;
+
+	transition: transform .7s ease-in-out; 
 }
+
+/* при наведении на аватарку крутим ее на 180 градусов */
+.avatar__picture:hover {
+  transform: rotate(180deg);
+}
+
+
 .contacts {
 	display: flex;
 	flex-direction: column;
